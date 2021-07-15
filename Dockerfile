@@ -9,6 +9,6 @@ COPY package*.json ./
 RUN npm install --production
 COPY . .
 
-EXPOSE 8080 8081
+EXPOSE 8081 8081
 
 ENTRYPOINT ["sh", "-c", "node app.js -o ${SOURCE}"]
