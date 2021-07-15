@@ -8,5 +8,5 @@ services:
       SOURCE: ${SOURCE:-bilibili kugou kuwo}
 
     ports:
-      - ${HTTP_PROXY_PORT:-8081}:8081
-      - ${HTTPS_PROXY_PORT:-8082}:8082
+      - ${HTTP_PROXY_PORT:-8080}:8081
+      - ${HTTPS_PROXY_PORT:-8081}:8082
